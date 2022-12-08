@@ -8,7 +8,7 @@ export const Home = () => {
         <img src={gambar} alt="Jabaruddin Syukri" width="200" className="rounded-circle img-tumbnail" />
 
         <h1 className="display-4">Jabaruddin Syukri</h1>
-        <p className="lead">Pelatihan Eduwork | My Biografi</p>
+        <p className="lead">| My Biografi |</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <path
             fill="#ffffff"
