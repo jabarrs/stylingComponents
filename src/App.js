@@ -1,19 +1,19 @@
-import { Foot, Footer } from './components/Foot';
+import { Foot } from './components/Foot';
 import { Navbar } from './components/Navbar';
 import './App.css';
 
-import { Profile } from './components/Profile';
-import { Skill } from './components/Skill';
+import { Home } from './components/Home';
 import { History } from './components/History';
+import { Skill } from './components/Skill';
 import { Contact } from './components/Contact';
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Profile />
-      <Skill />
+      <Home />
       <History />
+      <Skill />
       <Contact />
       <Foot />
     </div>

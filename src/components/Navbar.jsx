@@ -5,7 +5,7 @@ export const Navbar = () => {
     <Fragment>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top">
         <div className="container text-center">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="#home">
             My Biografi
           </a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,14 +19,14 @@ export const Navbar = () => {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#skill">
-                  Skill
+                <a className="nav-link" href="#history">
+                  History
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#history">
+                <a className="nav-link" href="#skill">
                   {' '}
-                  History
+                  Skill
                 </a>
               </li>
               <li className="nav-item">

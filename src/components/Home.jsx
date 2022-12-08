@@ -1,11 +1,12 @@
 import React, { Fragment } from 'react';
 import gambar from '../assets/img/jabar.jpg';
 
-export const Profile = () => {
+export const Home = () => {
   return (
     <Fragment>
-      <section className="jumbotron text-center">
+      <section id="home" className="jumbotron text-center">
         <img src={gambar} alt="Jabaruddin Syukri" width="200" className="rounded-circle img-tumbnail" />
+
         <h1 className="display-4">Jabaruddin Syukri</h1>
         <p className="lead">Pelatihan Eduwork | My Biografi</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
